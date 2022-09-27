@@ -21,7 +21,11 @@ This is an updated fork of https://github.com/cordon-thiago/airflow-spark
     * Added:
         * apache-airflow-providers-apache-spark==3.0.0
         * clickhouse-driver==0.2.4
-        * airflow-clickhouse-plugin==0.8.2 --install-option="--no-deps"
+        * airflow-clickhouse-plugin==0.8.2
+        * airflow-clickhouse-plugin==0.8.2
+        * gender_guesser==0.4.0
+        * requests==2.28.1
+        * apache-airflow-providers-postgres==5.2.1
 
 IMPORTANT: Airflow configuration steps needed:
   * Login to http://localhost:8282 as airflow/airflow and navigate to (Airflow->Admin->Connections):
