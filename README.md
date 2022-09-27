@@ -1,5 +1,5 @@
 
-# Airflow Spark ClickHouse
+# Airflow Spark ClickHouse PostgreSQL
 
 This is an updated fork of https://github.com/cordon-thiago/airflow-spark
 
