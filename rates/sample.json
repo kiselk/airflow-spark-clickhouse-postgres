@@ -1,0 +1,12 @@
+{
+    "motd": {
+        "msg": "If you or your company use this project or like what we doing, please consider backing us so we can continue maintaining and evolving this project.",
+        "url": "https://exchangerate.host/#/donate"
+    },
+    "success": "True",
+    "base": "USD",
+    "date": "2022-09-22",
+    "rates": {
+        "BTC": 5.4e-05
+    }
+}
