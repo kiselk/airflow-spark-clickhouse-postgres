@@ -28,7 +28,7 @@ This is an updated fork of https://github.com/cordon-thiago/airflow-spark
 
 IMPORTANT: Airflow configuration steps needed:
   * Login to http://localhost:8282 as airflow/airflow and navigate to (Airflow->Admin->Connections):
-  * Edit 'postgres_default' connection settings to match postgres://test:postgres@postgres:5432/postgres
+  * Edit 'postgres_default' connection settings to match postgres://test:postgres@postgres:5432/test
   * Edit 'spark_default' connection settings to match spark://spark:7077
 
 This project contains the following examples:
@@ -243,7 +243,7 @@ spark-worker-n:
 
 Rebuild Dockerfile (in this example, adding GCP extra):
 
-    $ docker build --rm --build-arg AIRFLOW_DEPS="gcp" -t docker-airflow-spark:1.10.7_3.1.2 .
+    $ docker build --rm --build-arg AIRFLOW_DEPS="gcp" -t docker-airflow-spark:2.4.0_3.3.0 .
 
 After successfully built, run docker-compose to start container:
 
